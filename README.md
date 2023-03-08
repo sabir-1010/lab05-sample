@@ -38,3 +38,29 @@ number = 29
 index = finding_Func(list, number)
 ```
 The output will look like: `The element does not exist in the list`
+
+
+## Sample Solution: TASK1 (print out multiples of 3 between 0 and 100 which are divisible by 2)
+ 
+```python
+for x in range(0,101,3):
+    if x%2==0:
+        print(x)
+```
+The output will look like: `0
+6
+12
+18
+24
+30
+36
+42
+48
+54
+60
+66
+72
+78
+84
+90
+96`
