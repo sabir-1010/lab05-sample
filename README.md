@@ -24,7 +24,9 @@ The output will look like: `The element is found at index 1`
  
 ```python
 def finding_Func(myList, myCheckNum):
-    #using a built-in function 'in' to find element. It doesnt not require the for-loop like part A. Direclty tell me whether the element exist or not. 
+    #using a built-in function 'in' to find element. It doesnt not require the for-loop like part A. 
+    #Direclty tell me whether the element exist or not. 
+    # used "list.index(number)" to find the index location
     if myCheckNum in myList:
         print("The element is found at index", list.index(number))
     else:
