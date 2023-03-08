@@ -5,11 +5,12 @@
  
 ```python
 def finding_Func(myList, myCheckNum):
-    for i in range(len(myList)):
-        #using for-loop to go through all the element, NOT built-in function to find element
-        if list[i] == myCheckNum:
-            print("The element is found at index", i)
+    counter = 0
+    for item in myList:
+        if item == myCheckNum:
+            print("The element is found at index", counter)
             return
+        counter = counter + 1
     print("The element does not exist in the list")
 
 ##this is the test case part. main code is above this finding_Func function 
