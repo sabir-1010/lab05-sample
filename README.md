@@ -6,7 +6,7 @@
 ```python
 def finding_Func(myList, myCheckNum):
     for i in range(len(myList)):
-        #using conditions, NOT built-in function to find element
+        #using for-loop to go through all the element, NOT built-in function to find element
         if list[i] == myCheckNum:
             print("The element is found at index", i)
             return
